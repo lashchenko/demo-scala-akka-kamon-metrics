@@ -7,7 +7,7 @@ resolvers ++= Seq(
   "Kamon Repository Snapshots" at "http://snapshots.kamon.io"
 )
 
-val kamonVersion = "0.6.6"
+val kamonVersion = "0.6.7"
 val akkaVersion = "2.4.14"
 
 val aspectjDeps = Seq(
@@ -18,7 +18,7 @@ val kamonDeps = Seq(
   "io.kamon" %% "kamon-autoweave" % "0.6.5",
   "io.kamon" %% "kamon-core" % kamonVersion,
   "io.kamon" %% "kamon-akka-remote-2.4" % kamonVersion,
-  "io.kamon" %% "kamon-akka-2.4" % kamonVersion,
+  "io.kamon" %% "kamon-akka-2.4" % "0.6.8",
   "io.kamon" %% "kamon-log-reporter" % kamonVersion
 )
 
