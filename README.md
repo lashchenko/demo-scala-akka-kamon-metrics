@@ -19,15 +19,25 @@ Run AkkaClusterDemoApp (seed node)
 ```
 ...
 TestScheduler DoIt
+TestWorker DoIt
 TestScheduler DoIt
+TestWorker DoIt
 TestScheduler DoIt
+TestWorker DoIt
 TestScheduler DoIt
+TestWorker DoIt
 TestScheduler DoIt
+TestWorker DoIt
 TestScheduler DoIt
+TestWorker DoIt
 TestScheduler DoIt
+TestWorker DoIt
 TestScheduler DoIt
+TestWorker DoIt
 TestScheduler DoIt
+TestWorker DoIt
 TestScheduler DoIt
+TestWorker DoIt
 ...
 +--------------------------------------------------------------------------------------------------+
 |                                                                                                  |
